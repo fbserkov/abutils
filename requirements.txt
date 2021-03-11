@@ -1,0 +1,7 @@
+lxml
+matplotlib
+pyodbc
+pysmb
+requests
+sqlalchemy
+tzwhere

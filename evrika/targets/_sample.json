@@ -1,0 +1,38 @@
+{
+  "username": "<username>",
+  "password": "<password>",
+  "directories": [
+    {
+      "name": "<ИНН>_ООО_<Наименование 1>",
+      "id_contractor": 111,
+      "subdirectories": [
+        {
+          "name": "EVRIKAMOS",
+          "id_complex": null,
+          "sources": ["CYBER", "EUREKA", "OSMP"]
+        },
+        {
+          "name": "EVRIKAMOSRFI",
+          "id_complex": null,
+          "sources": ["RFI"]
+        }
+      ]
+    },
+    {
+      "name": "<ИНН>_ООО_<Наименование 2>",
+      "id_contractor": 222,
+      "subdirectories": [
+        {
+          "name": "EVRIKA4MKR",
+          "id_complex": 33,
+          "sources": ["CYBER", "EUREKA", "OSMP"]
+        },
+        {
+          "name": "EVRIKA4MKRRFI",
+          "id_complex": 44,
+          "sources": ["RFI"]
+        }
+      ]
+    }
+  ]
+}
